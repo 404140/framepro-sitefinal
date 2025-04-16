@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FRAME PRO – Edição Profissional de Vídeos</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #121212;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #00ff99;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #d0d0d0;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 30px;
+      font-size: 1.1rem;
+      color: #fff;
+      background-color: #00ff99;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 0 rgba(0, 255, 153, 0.4);
+      animation: pulse 2s infinite;
+    }
+
+    .button:hover {
+      background-color: #00cc77;
+      transform: scale(1.05);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 153, 0.4);
+      }
+      70% {
+        box-shadow: 0 0 0 20px rgba(0, 255, 153, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 153, 0);
+      }
+    }
+
+    .faq {
+      background-color: #1b1b1b;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #121212;
+      padding: 30px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>FRAME PRO</h1>
+    <p>Edição de vídeos profissional para infoprodutores, influenciadores, YouTubers, casamentos e muito mais.</p>
+    <a class="button" href="https://wa.me/seunumerodowhatsapp?text=Olá%2C+quero+um+orçamento+de+edição+de+vídeo+na+FRAME+PRO!" target="_blank">Fale com a gente no WhatsApp</a>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>O que fazemos</h2>
+    <p>Transformamos vídeos brutos em conteúdos impactantes e profissionais, prontos para vender, encantar e viralizar.</p>
+    <ul>
+      <li>🎬 Edição para infoprodutores e lançamentos</li>
+      <li>💍 Vídeos de casamento emocionantes</li>
+      <li>📹 Edição de VSLs e vídeos de vendas</li>
+      <li>📺 Edição para YouTubers (vlogs, reviews, tutoriais)</li>
+      <li>✂️ Cortes para Instagram, TikTok e Reels</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Planos</h2>
+    <ul>
+      <li><strong>Starter:</strong> 1 vídeo de até 5 min/semana – R$ 297/mês</li>
+      <li><strong>Pro:</strong> 3 vídeos + 6 cortes – R$ 697/mês</li>
+      <li><strong>Premium:</strong> 5 vídeos + 10 cortes + prioridade – R$ 1.197/mês</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Perguntas Frequentes</h2>
+    <div class="faq">
+      <p><strong>Qual o prazo de entrega?</strong><br>De 2 a 4 dias úteis por vídeo.</p>
+      <p><strong>Posso testar antes de contratar?</strong><br>Sim! Oferecemos um vídeo de teste gratuito.</p>
+      <p><strong>Como envio meu material?</strong><br>Você recebe um link para enviar pelo Google Drive ou WeTransfer.</p>
+    </div>
+  </section>
+
+  <section data-aos="zoom-in">
+    <h2>Pronto para transformar seus vídeos?</h2>
+    <a class="button" href="https://wa.me/seunumerodowhatsapp?text=Olá%2C+quero+começar+com+a+FRAME+PRO!" target="_blank">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    © 2025 FRAME PRO – Todos os direitos reservados.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
